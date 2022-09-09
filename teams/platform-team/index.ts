@@ -9,6 +9,6 @@ export class TeamPlatform extends PlatformTeam {
                 new ArnPrincipal(`arn:aws:iam::${accountID}:user/platform`),
                 new ArnPrincipal(`arn:aws:iam::${accountID}:user/Administrator`)
                 ]
-        })
+        });
     }
 }
